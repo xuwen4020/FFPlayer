@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1F7E07D02A2DB5C900D19D4C /* FFPlayer.docc in Sources */ = {isa = PBXBuildFile; fileRef = 1F7E07CF2A2DB5C900D19D4C /* FFPlayer.docc */; };
 		1F7E07D62A2DB5C900D19D4C /* FFPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7E07CB2A2DB5C900D19D4C /* FFPlayer.framework */; };
-		1F7E07DB2A2DB5C900D19D4C /* FFPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7E07DA2A2DB5C900D19D4C /* FFPlayerTests.swift */; };
 		1F7E07DC2A2DB5C900D19D4C /* FFPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F7E07CE2A2DB5C900D19D4C /* FFPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F7E07EB2A2DB61A00D19D4C /* BFPlayerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7E07E62A2DB61A00D19D4C /* BFPlayerViewDelegate.swift */; };
 		1F7E07EC2A2DB61A00D19D4C /* BFPlayerControlBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7E07E72A2DB61A00D19D4C /* BFPlayerControlBar.swift */; };
@@ -33,7 +32,6 @@
 		1F7E07CE2A2DB5C900D19D4C /* FFPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFPlayer.h; sourceTree = "<group>"; };
 		1F7E07CF2A2DB5C900D19D4C /* FFPlayer.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FFPlayer.docc; sourceTree = "<group>"; };
 		1F7E07D52A2DB5C900D19D4C /* FFPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F7E07DA2A2DB5C900D19D4C /* FFPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPlayerTests.swift; sourceTree = "<group>"; };
 		1F7E07E62A2DB61A00D19D4C /* BFPlayerViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BFPlayerViewDelegate.swift; sourceTree = "<group>"; };
 		1F7E07E72A2DB61A00D19D4C /* BFPlayerControlBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BFPlayerControlBar.swift; sourceTree = "<group>"; };
 		1F7E07E82A2DB61A00D19D4C /* BFPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BFPlayerView.swift; sourceTree = "<group>"; };
@@ -64,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				1F7E07CD2A2DB5C900D19D4C /* FFPlayer */,
-				1F7E07D92A2DB5C900D19D4C /* FFPlayerTests */,
 				1F7E07CC2A2DB5C900D19D4C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,14 +85,6 @@
 				1F7E07CF2A2DB5C900D19D4C /* FFPlayer.docc */,
 			);
 			path = FFPlayer;
-			sourceTree = "<group>";
-		};
-		1F7E07D92A2DB5C900D19D4C /* FFPlayerTests */ = {
-			isa = PBXGroup;
-			children = (
-				1F7E07DA2A2DB5C900D19D4C /* FFPlayerTests.swift */,
-			);
-			path = FFPlayerTests;
 			sourceTree = "<group>";
 		};
 		1F7E07E52A2DB61A00D19D4C /* View */ = {
@@ -230,7 +219,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F7E07DB2A2DB5C900D19D4C /* FFPlayerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
